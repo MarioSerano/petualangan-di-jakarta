@@ -16,7 +16,7 @@ const DesktopView: FC = (props) => {
           <div tw="absolute top-0 left-[7.125rem]">
             <Image
               alt="Left Cloud"
-              src="/assets/awan-left.png"
+              src="/assets/awan-left.webp"
               width={387}
               height={265}
             />
