@@ -80,8 +80,8 @@ const DesktopView: FC = (props) => {
         <div tw="w-full h-full absolute top-0 left-0">
           <motion.div
             tw="absolute bottom-[5.8125rem] left-[1.375rem]"
-            initial={{ rotate: 360, left: "-70vh" }}
-            animate={{ rotate: 0, left: 0 }}
+            initial={{ rotate: 360, x: "-50vw" }}
+            animate={{ rotate: 0, x: 0 }}
             transition={{ duration: 1 }}
           >
             <AvatarFrame
@@ -95,8 +95,8 @@ const DesktopView: FC = (props) => {
           </motion.div>
           <motion.div
             tw="absolute top-[10.3125rem] left-[8.3125rem]"
-            initial={{ rotate: -360, left: "-80vh" }}
-            animate={{ rotate: 0, left: 0 }}
+            initial={{ rotate: -360, x: "-50vw" }}
+            animate={{ rotate: 0, x: 0 }}
             transition={{ duration: 1 }}
           >
             <AvatarFrame
@@ -110,8 +110,8 @@ const DesktopView: FC = (props) => {
           </motion.div>
           <motion.div
             tw="absolute bottom-[13.625rem] right-[1.375rem]"
-            initial={{ rotate: 360, right: "-70vh" }}
-            animate={{ rotate: 0, right: 0 }}
+            initial={{ rotate: 360, x: "50vw" }}
+            animate={{ rotate: 0, x: 0 }}
             transition={{ duration: 1 }}
           >
             <AvatarFrame
